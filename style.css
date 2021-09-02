@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #102626;
+}
+.mythink {
+    margin: auto;
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*-webkit-box-reflect: below 1px linear-gradient(#0001,#0004);*/
+}
+
+
+
+
+.box1 {
+    background: #84ac7e;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 23px 4px #296e29b5;
+    margin-left: 20px;
+    margin-top: 67px;
+    animation-name: suhaeb;
+   animation-duration:5s;
+   animation-direction: alternate;
+animation-iteration-count: infinite;
+transition-timing-function: ease-in;
+
+}
+.box2 {
+    background: #84ac7e;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 23px 4px #296e29b5;
+    margin-left: 20px;
+    margin-top: 20px;
+    animation-name: wraper;
+   animation-duration:5s;
+   animation-direction: alternate;
+animation-iteration-count: infinite;
+transition-timing-function: ease-in;
+
+}
+
+.twobox {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 9px;
+    height: 300px;
+    background: #338693b5;
+    border-radius: 20px;
+    box-shadow: 2px 2px 62px -1px #338693b5;
+}
+@keyframes suhaeb{
+    from{margin-left: 20px;}
+    to{margin-left: 200px;}
+}
+@keyframes wraper{
+    from{margin-top: 100px;}
+    to{margin-top:-70px;}
+}
+.allbox {
+    position: absolute;
+    top: 6px;
+    left: 15%;
+}
+
+.allbox h1 {
+    color: #193a55c7;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.allbox input {
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 30px;
+    background: #80808000;
+    outline: none;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: purple;
+}
+::-webkit-input-placeholder{
+    color:greenyellow;
+}
+button {
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    color: black;
+    font-family: none;
+    font-weight: 700;
+    background: #ecca0763;
+    border-radius: 13px;
+    width: 90px;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+    transition-delay: 0.6s;
+}
+button:hover {
+    cursor: pointer;
+    background: #175a68;
+    color:white;
+    font-size: 15px;
+    box-shadow: 2px 2px 23px 4px #296e29b5;
+    
+    
+    
+}
